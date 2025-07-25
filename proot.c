@@ -1,3 +1,11 @@
+/*
+ * 実行方法（Windows のコマンドプロンプトの場合）：
+ *   gcc proot.c -o 任意の実行ファイル名.exe 
+ *   任意の実行ファイル名.exe 
+ *
+ * ※ 詳細な環境や補足情報は README.md をご参照ください。 
+ */
+
 #include <stdio.h>
 #define SIZE 6　// 配列のサイズを6に設定
 #define ERR 0.00001　// 誤差
